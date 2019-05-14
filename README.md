@@ -1,5 +1,5 @@
 # Tables reservations
-Online Restaurant Reservation System and Table Planner
+Online Table Reservation System and Planner
 
 
 ## How to Install                                                                                                            
