@@ -87,7 +87,6 @@ $(function () {
         });
 
     function showForm() {
-        console.log('SELECTED id:', TABLE_SELECTED_ID);
         let style;
         if (TABLE_SELECTED_ID) {
             style = 'block';
@@ -125,7 +124,6 @@ $(function () {
         $(this).serializeArray().map(function (obj) {
             params[obj.name] = obj.value;
         });
-        console.log('params:', params,);
         postData(getTablesUrl, params)
             .then(data => {
                 console.log(JSON.stringify(data))
