@@ -1,0 +1,67 @@
+
+
+#room-schema {
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    background: lightblue;
+    position: relative;
+    padding: 20px;
+    margin: 20px;
+}
+
+.table {
+    position: absolute;
+    background: lightgreen;
+    float: left;
+    clear: both;
+
+}
+
+.table.selected {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+.table.available {
+    cursor: pointer;
+}
+
+/* table styles */
+.table {
+    border: 3px solid #FFF;
+    border-radius: 15px;
+}
+
+.table.reserved {
+    background-color: #def;
+    border: none;
+}
+
+.test_table {
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    background: lightgreen;
+}
+
+.center-block {
+    margin: auto;
+    padding: 10px;
+    width: 220px;
+}
+
+/*override bootstrap*/
+input.form-control{
+    width: auto;
+}
+
+.submit-form {
+    padding: 20px;
+    margin: 20px;
+}
+.date {
+    padding: 20px;
+    margin: 20px;
+}

@@ -1,0 +1,86 @@
+[
+    {
+        "model": "tables.tablemodel",
+        "pk": 1,
+        "fields": {
+            "seats_qty": 10,
+            "shape": "r",
+            "coordinate_min_x": 1,
+            "coordinate_min_y": 1,
+            "width": 4,
+            "length": 2,
+            "created_at": "2019-05-11T21:42:16.889Z",
+            "modified_at": "2019-05-11T21:42:16.889Z"
+        }
+    },
+    {
+        "model": "tables.tablemodel",
+        "pk": 2,
+        "fields": {
+            "seats_qty": 6,
+            "shape": "r",
+            "coordinate_min_x": 7,
+            "coordinate_min_y": 1,
+            "width": 2,
+            "length": 2,
+            "created_at": "2019-05-11T21:42:57.385Z",
+            "modified_at": "2019-05-11T21:42:57.385Z"
+        }
+    },
+    {
+        "model": "tables.tablemodel",
+        "pk": 3,
+        "fields": {
+            "seats_qty": 6,
+            "shape": "o",
+            "coordinate_min_x": 1,
+            "coordinate_min_y": 6,
+            "width": 2,
+            "length": 3,
+            "created_at": "2019-05-11T21:44:15.140Z",
+            "modified_at": "2019-05-11T21:44:15.140Z"
+        }
+    },
+    {
+        "model": "tables.tablemodel",
+        "pk": 4,
+        "fields": {
+            "seats_qty": 2,
+            "shape": "r",
+            "coordinate_min_x": 4,
+            "coordinate_min_y": 8,
+            "width": 1,
+            "length": 1,
+            "created_at": "2019-05-11T21:46:22.672Z",
+            "modified_at": "2019-05-11T21:46:22.672Z"
+        }
+    },
+    {
+        "model": "tables.tablemodel",
+        "pk": 5,
+        "fields": {
+            "seats_qty": 2,
+            "shape": "r",
+            "coordinate_min_x": 4,
+            "coordinate_min_y": 6,
+            "width": 1,
+            "length": 1,
+            "created_at": "2019-05-11T21:46:39.262Z",
+            "modified_at": "2019-05-11T21:46:39.262Z"
+        }
+    },
+    {
+        "model": "tables.tablemodel",
+        "pk": 6,
+        "fields": {
+            "seats_qty": 9,
+            "shape": "r",
+            "coordinate_min_x": 7,
+            "coordinate_min_y": 5,
+            "width": 2,
+            "length": 4,
+            "created_at": "2019-05-11T21:47:00.473Z",
+            "modified_at": "2019-05-11T21:47:00.473Z"
+        }
+    }
+]

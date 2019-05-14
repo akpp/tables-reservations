@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    {% load static %}
+    <script src="{% static "bootstrap-datepicker.js" %}"></script>
+    <link rel="stylesheet" type="text/css" href="{% static "bootstrap-datepicker3.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "style.css" %}">
+    <script src="{% static "script.js" %}"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+
+<div class="date">
+
+    <div id="date"></div>
+</div>
+
+<div id="room-schema">
+    <div class="test_table1"></div>
+
+</div>
+
+<div class="submit-form">
+    <form action="/articles/add/" id="uploadForm" style="display: none;">
+        <div class="form-group">
+            <label for="client_name">Client Name</label>
+            <input type="text" class="form-control" name="client_name"
+                   placeholder="Client Name">
+        </div>
+        <div class="form-group">
+            <label for="client_name">Client Email address</label>
+            <input type="email" class="form-control" name="client_email"
+                   placeholder="Enter email">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+</div>
+
+
+</body>
+</html>
+
